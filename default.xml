@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="aosp" fetch="https://android.googlesource.com" />
-  <remote  name="rama" fetch="https://github.com/rama982" />
+  <remote  name="a25" fetch="https://github.com/Anything-at-25-00" />
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10" />
 
   <project path="build" name="kernel/build" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="android12-5.10" />
-  <project path="common" name="kernel_common" remote="rama" revision="custom-5.10" />
+  <project path="common" name="kernel_common" remote="a25" revision="custom-5.10" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
   <project path="common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="android12-5.10" />
