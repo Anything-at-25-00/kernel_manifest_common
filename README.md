@@ -1,7 +1,7 @@
 # Build Kernel
 ## Sync ###
 ```bash
-    repo init -u https://github.com/rama982/kernel_manifest -b common-android12-5.10
+    repo init -u https://github.com/Anything-at-25-00/kernel_manifest -b common-android12-5.10
     repo sync
 ```
 ## Build ###
